@@ -1,0 +1,73 @@
+body{
+  background: radial-gradient(#BBFFFF,#FBFFFF);
+}
+/*Header on all pages*/
+header {
+text-align: center;
+color: grey;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+/*Main header title*/
+header h1 {
+  font-family: sans-serif;
+}
+h2{
+  color: grey;
+  border: 2px solid grey;
+  padding: 5px 0 5px 5px;
+}
+h3{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px 0 5px 5px;
+}
+/*h3 for contact page*/
+h3.contact{
+  text-align: center;
+}
+/*Underlined header in about page, just because "text-decoration" is in the requirements :) */
+h3.underlined{
+  text-decoration: underline;
+}
+
+/*Horizontal line on top of header*/
+hr.above{
+height: 5px;
+background-color: grey;
+}
+/*Horizontal line at bottom of header*/
+hr.under{
+height: 2px;
+background-color: grey;
+width: 500px;
+}
+/*Header image (TH photo)*/
+img.header{
+  height: 200px;
+  width: 200px;
+}
+/*Portfolio images*/
+img.pfimage{
+  height: 300px;
+  width: 300px;
+}
+/*Link to sites above image in Portfolio page*/
+p.pflink{
+  font-weight: bold;
+}
+/*Sitewide Links behavior*/
+a:link{
+  color: black;
+}
+a:visited{
+  color: grey;
+}
+a:hover{
+  color: blue;
+}
+/*email icon for email contact link*/
+img.mailicon{
+  width: 35px;
+  height: 35px;
+}
