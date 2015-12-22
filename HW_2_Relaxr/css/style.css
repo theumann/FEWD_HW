@@ -80,12 +80,33 @@ a:hover {
   color: yellow;
   text-decoration: none;
 }
-.readmore a:link {
+.readmore:link {
   color: #033048;
 }
-.readmore a:visited {
+.readmore:visited {
   color: #033048;
 }
+
+.categories a:link {
+  color: #033048;
+}
+.categories a:visited {
+  color: #033048;
+}
+'.categories a:hover {
+  font-weight: bold;
+}
+
+.learnmore:link {
+  color: #033048;
+}
+.learnmore:visited {
+  color: #033048;
+}
+.learnmore:hover {
+  font-weight: bold;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -107,14 +128,15 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   color: #033048;
 }
 h3 {
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 800;
   color: #033048;
+  margin: 20px 0 10px 0;
 }
 .header-left {
   float:left;
@@ -128,8 +150,8 @@ nav {
   float: right;
   margin-right: 25px;
   font-weight: 600;
-  font-size: 24px;
-  padding-top: 10px;
+  font-size: 20px;
+  padding-top: 15px;
 }
 
 nav li {
@@ -150,14 +172,19 @@ nav li {
 article {
 border-bottom: 2px solid #033048;
 padding: 10px 0 10px 0;
+margin-left: 30px;
 }
-.article-text:first-letter {
-  float: left;
-  font-size: 200%;
-  color: #8A2BE2;
+
+article img {
+  width: 650px;
+  height: auto;
+  margin: 10px 0 10px 0;
 }
-.readmore{
-  padding: 10px;
+
+.firstcharacter {float: left; font-size: 75px; line-height: 90px; padding-top: 4px; padding-right: 8px; padding-left: 3px;}
+
+.readmore {
+  padding: 20px 0 20px 0;
   float: right;
   color: #033048;
   font-weight: bold;
@@ -165,20 +192,29 @@ padding: 10px 0 10px 0;
 
 .side-content {
   float:left;
-  width: 240px;
-  margin-left: 10px;
+  width: 230px;
+  margin: 10px;
   font-weight: light;
   font-size: 24px;
   color: #606161;
   padding: 15px;
 }
+.side-content img {
+  width: 200px;
+  height:auto;
+  margin-top: 30px;
+}
 .categories {
   font-weight: light;
   font-size: 24px;
 }
+
 .about {
   font-weight: light;
   font-size: 22px;
+}
+.learnmore {
+  font-weight: bold;
 }
 
 footer {
@@ -187,7 +223,7 @@ text-align: center;
 }
 .footer-top{
   background-color: #f9e42e;
-  padding: 10px;
+  padding: 20px;
 }
 .footer-top button {
   color: #fff;
@@ -199,13 +235,19 @@ text-align: center;
 .footer-bottom {
 background-color: #121212;
 color: #ffffff;
-padding: 10px;
+padding: 20px;
 }
 .footer-logo{
 font-size: 26px;
 font-weight: bold;
 color: #f9e42e;
+margin: 10px 0 20px 0;
 }
+
+.footer-bottom ul {
+  margin-bottom: 30px;
+}
+
 .footer-bottom li {
   display: inline;
   padding: 10px;
