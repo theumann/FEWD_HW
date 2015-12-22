@@ -1,0 +1,257 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+nav a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav a:visited {
+  color: #ffffff;
+}
+nav a:hover {
+  background-color: gray;
+}
+nav a:active {
+  color: #ffffff;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* center and give fixed width to the body*/
+.container {
+  width: 1024px;
+  margin: auto;
+  /* font-family: Helvetica, Arial, sans-serif;*/
+ font-family: 'Open Sans', sans-serif;
+}
+.profiles {
+  width: 1200px;
+  margin: auto;
+  /* font-family: Helvetica, Arial, sans-serif;*/
+ font-family: 'Open Sans', sans-serif;
+}
+
+header {
+background-color: black;
+width: 100%;
+padding: 15px;
+border-bottom: 4px solid yellow;
+}
+.logo{
+float: left;
+width: 100%;
+font-size: 36px;
+color: yellow;
+padding: 10px;
+}
+.logo a:link {
+  color: yellow;
+  text-decoration: none;
+}
+.logo a:visited {
+  color: yellow;
+  text-decoration: none;
+}
+.logo a:hover {
+  font-weight: bold;
+}
+
+nav {
+  width: 100%;
+  color: #ffffff;
+}
+nav ul {
+  float: right;
+  padding: 10px;
+}
+.big{
+  font-weight: bold;
+  font-size: 24px;
+}
+h1 {
+background-color: #D3D3D3;
+font-size: 30px;
+width: 100%;
+text-align: center;
+padding: 10px;
+}
+.h1-crossed {
+color: gray;
+text-decoration: line-through;
+}
+.h1-underlined {
+border-bottom: 3px solid yellow;
+}
+
+.main {
+  width: 100%;
+  height: 600px;
+  background: url(../img/coworking.jpg);
+  background-size: auto;
+  padding: 25px;
+  background-repeat: no-repeat;
+}
+.main-text {
+  float: right;
+  padding: 30px;
+  width: 30%;
+  border: 2px solid #D3D3D3;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+}
+h2 {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.button-center {
+  text-align: center;
+  padding: 10px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+  border: 0;
+  font-weight: 900;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 8px;
+  border-bottom: 1px solid grey;
+}
+button:hover, a button:hover, .signup:hover {
+  background-color: gray;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  }
+
+nav li {
+  display: inline;
+  margin: 5px;
+}
+
+
+.secondary {
+  padding: 15px;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  border-right: 1px solid #D3D3D3;
+}
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  border-right: 1px solid #D3D3D3;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.secondary button {
+  background-color: #D3D3D3;
+}
+
+.allpage {
+  width: 100%;
+  background-color: #D3D3D3;
+  padding: 10px 50px 10px 50px;
+}
+.vignette {
+float: left;
+width: 262px;
+height: 350px;
+margin: 5px;
+background-color: #D3D3D3;
+border: 6px solid white;
+}
+.vignette-bottom{
+  background-color: #fff;
+  color: #000;
+  padding: 5px 0 5px 0;
+}
+
+.profile-photo {
+  width: 250px;
+  height: 250px;
+}
+
+.button-ul{
+  margin: 6px 0 6px 0;
+}
+.button-ul li {
+  color: #fff;
+  display: inline;
+  background-color: gray;
+  padding: 1px 5px 1px 5px;
+  border-radius: 8px;
+  height: 50px;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #ffffff;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
