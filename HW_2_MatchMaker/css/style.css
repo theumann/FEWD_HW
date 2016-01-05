@@ -221,7 +221,7 @@ nav li {
 .vignette {
 float: left;
 width: 262px;
-height: 350px;
+height: 360px;
 margin: 5px;
 background-color: #D3D3D3;
 border: 6px solid white;
@@ -238,7 +238,7 @@ border: 6px solid white;
 }
 
 .button-ul{
-  margin: 6px 0 6px 0;
+  margin: 6px 0 10px 0;
 }
 .button-ul li {
   color: #fff;
