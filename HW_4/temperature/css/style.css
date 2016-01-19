@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+}
+
+#temp-display {
+  text-align: center;
+}
+
+/* background color after entering a temperature. */
+.freezing {
+  background-color: cyan;
+}
+.cold {
+  background-color: yellow;
+}
+.warm {
+  background-color: orange;
+}
+.hot {
+  background-color: red;
+}
+.none {
+  background-color: white;
+}
+
+/* F temperature text color after entering a temperature. */
+.temp-freezing {
+  color: blue;
+}
+.temp-cold {
+  color: green;
+}
+.temp-warm {
+  color: red;
+}
+.temp-hot {
+  color: yellow;
+}
+.temp-none {
+  color: red;
+}

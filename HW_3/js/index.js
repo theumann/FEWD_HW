@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  $('a').click(function(){
+  $('a').click(function(event){
     event.preventDefault();
-  })
+  });
 
 //  $(p article).onLoad(function(){
   $('.show-this-on-click').hide();
