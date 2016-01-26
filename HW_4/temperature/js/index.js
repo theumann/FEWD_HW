@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('.result').removeClass();
     $('h1').remove();
     $('#temp-display').append("<h1>The temperature is <span class='result'>" + f + "</span> °F.</h1>");
-    console.log ('c:'+ c + '  f:' + f);
+    console.log ('c:'+ c + 'f:' + f);
 
     if (f <= 32) {
       $('body').addClass('freezing');
